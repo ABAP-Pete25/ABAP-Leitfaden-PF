@@ -89,21 +89,23 @@ Einflussmöglichkeiten
 
 ## AI als Werkzeug bei Dokumentationserstellung
 
-Bis sich AI im Alltag des ABAP Entwicklers dauerhaft und voll integriert wiederfindet, wird sicher noch einige Zeit vergehen. Allerdings kann AI bereits jetzt unterstützend ohne technische Integration sinnvoll im Entwickleralltag eingesetzt werden.
+Bis sich AI im Alltag des ABAP-Entwicklers dauerhaft und voll integriert wiederfindet, wird sicher noch einige Zeit vergehen. Allerdings kann AI bereits jetzt unterstützend und ohne technische Integration sinnvoll im Entwickleralltag eingesetzt werden. Hier möchten wir als Beispiel die Unterstützung bei der Dokumentationserstellung vorstellen. 
 
-Ein Anwendungsszenario ist die unterstützende Erstellung der Dokumentation einer Eigenentwicklung. So können die aktuell verfügbaren Chat Bots vom Entwickler oder dem für die Entwicklung zuständigen Mitarbeiter verwendet werden um die technische Dokumentation der Anwendung zu erstellen. Dazu muss der generativen AI die Aufgabe (also das gewünschte Ergebnis: Erstelle eine technische Dokumentation), der Kontext und Zweck der Anwendung mitgeteilt werden. Für die technischen Details kann dann der Code der wichtigsten Klassen, die die Geschäftslogik enthält und ergänzende Informationen mitgegeben werden. Sind bereits erläuternde Informationen als Kommentar oder im besten Fall als ABAP Doc in der Entwicklung enthalten, kann dies von der genAI für die Dokumentation herangezogen werden.
+Ein Anwendungsszenario ist eine Unterützung der Dokumentationserstellung durch die AI. In diesem Anwendungsfall kann die AI wie z.B. Cha GPT vom Entwickler oder dem für die Entwicklung zuständigen Mitarbeiter verwendet werden, um die technische Dokumentation der Anwendung zu erstellen. Dazu muss der generativen AI die Aufgabe (also das gewünschte Ergebnis: Erstelle eine technische Dokumentation), der Kontext und Zweck der Anwendung mitgeteilt werden. Für die technischen Details kann dann der Code der wichtigsten Klassen, die die Geschäftslogik enthalten und ergänzende Informationen mitgegeben werden. Sind bereits erläuternde Informationen als Kommentar, im besten Fall als ABAPDoc, in der Entwicklung enthalten, kann dies von der AI für die Dokumentation herangezogen werden.
 
-Als erstes Ergebnis erhält man hier eine Beschreibung was die AI aus dem Code und den Informationen auswerten konnte. Hier wird schnell offensichtlich inwiefern der Code die gewünschte Logik erklärbar umsetzt und wo iterationen und manuelle Korrekturen und Ergänzungen notwendig sind.
+Als erstes Ergebnis erhält man hier eine Beschreibung was die AI aus dem Code und den Informationen auswerten konnte. Hier wird schnell offensichtlich inwiefern der Code die gewünschte Logik erklärbar umsetzt und wo Iterationen und manuelle Korrekturen und Ergänzungen im erstellten Text notwendig sind.
 
 Um eine ansprechende Dokumentation zu bekommen ist gutes Prompt Engineering erforderlich. Doch mit jeder Iteration kann man hier Erfahrung sammeln um bessere Ergebnisse zu erzielen.
 
-Auch wenn die genAI hier nicht in wenigen Minuten die vollständige und direkt verwendbare Dokumentation erstellt, hilft dieser Prozess bei der Erstellung einer Entwurfsversion und erspart Tipparbeit. Beim Durchsehen wird schnell ersichtlich wo manuelle Nacharbeit erforderlich ist, Man bekommt sozusagen einen Diskussionspartner und erzielt am Ende ein besseres Ergebnis, da durch die Iteration mit der genAI logische Inkonsistenzen oder Unklarheiten beim Lesen erkannt werden.
+Auch wenn die AI hier nicht in wenigen Minuten die vollständige und direkt verwendbare Dokumentation erstellt, hilft dieser Prozess bei der Erstellung einer Entwurfsversion und erspart Tipparbeit. Der Hauptvorteil besteht, darin, dass man nicht bei Null mit der Dokumentation beginnen muss, sondern eine erste Version enthält, die die erhaltenen Informationen widerspiegelt. Man bekommt sozusagen einen Diskussionspartner und erzielt am Ende ein besseres Ergebnis, da durch die Iterationen mit dem AI Chatbot logische Inkonsistenzen oder Unklarheiten beim Lesen erkannt werden.
 
 Ob man am Ende schneller ist, kommt auf die Anwendung und die Beherrschung der AI an. Aber der schwierige Schritt des Anfangs ist deutlich einfacher und die gewonnene Zeit kann investiert werden eine qualitativ hochwertige Dokumentation zu erstellen.
 
-Eine technische Integration entfällt, da die Schnittstelle der Mensch ist. Bei der Übertragung des Codes und Beschreibung der Anwendung im gen AI Prompt sind die Belange des Datenschutzes und ggf. eine Prüfung auf Vertraulichkeit der Anwendung zu berücksichtigen. 
+Eine technische Integration entfällt, da die Schnittstelle der Mensch ist. Bei der Übertragung des Codes und Beschreibung der Anwendung im AI-Prompt sind die Belange des Datenschutzes und ggf. eine Prüfung auf Vertraulichkeit der Anwendung zu berücksichtigen. 
 
-Im Idealfall ist im Unternehmen eine genAI im Einsatz die diese Belange über eigene Tenants oder spezielle Verträge absichert.
+Im Idealfall steht im Unternehmen bereits ein AI Chatbot zur verfügung, der diese Belange über eigene Tenants oder spezielle Verträge mit dem Anbieter absichert.
+
+Dieser Anwendungfall soll als Inspiration dienen. Als weitere Beispiele können die Aufbereitung und Zusammenfassung von Kundenanforderung zu einer zu erstellenden Entwicklung oder auch die Analyse und Strukturierung eines technischen Konzepts einer Entwicklungs mittels einer generativen AI genannt werden. 
 
 ## Weitere Hinweise
 
